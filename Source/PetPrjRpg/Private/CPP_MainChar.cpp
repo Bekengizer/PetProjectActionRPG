@@ -22,10 +22,13 @@ void ACPP_MainChar::BeginPlay()
 	ourIntArray.Emplace(4); // создает обьект сразу не использу€ копирование или перемещение
 	ourIntArray.Remove(25); // ”даление сравнением
 	ourIntArray.RemoveAt(0);// ”даление по индексу
-	for (auto& ele : ourIntArray) 
-	{
-		UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(ele)); // SanitizeFloat преобразует каждый элемент массива под string есть еще fromInt
-	}
+
+	//myMap.Emplace("First", 32);
+	//int32 TempInt = myMap["First"];
+//	for (auto& ele : ourIntArray) 
+	//{
+	//	UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(ele)); // SanitizeFloat преобразует каждый элемент массива под string есть еще fromInt
+	//}
 }
 
 // Called every frame

@@ -19,6 +19,8 @@ public:
 	ACPP_MainChar();
 	UPROPERTY(BlueprintReadWrite, EditAnywhere) //создание массива в unreal как поле данных
 		TArray<int> ourIntArray;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere) //создание массива в unreal как поле данных
+		//TMap<FString,int32> myMap;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float Health; //’п игрока, 
 //конечно же правильнее доступ через геттеры и сеттеры или вообще интерфейс, но дл€ простоты вот так
