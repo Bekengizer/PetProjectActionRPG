@@ -23,8 +23,8 @@ void ACPP_MainChar::BeginPlay()
 	ourIntArray.Remove(25); // Удаление сравнением
 	ourIntArray.RemoveAt(0);// Удаление по индексу
 
-	//myMap.Emplace("First", 32);
-	//int32 TempInt = myMap["First"];
+	myMap.Emplace("First", 32);
+	int32 TempInt = myMap["First"];
 //	for (auto& ele : ourIntArray) 
 	//{
 	//	UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(ele)); // SanitizeFloat преобразует каждый элемент массива под string есть еще fromInt
